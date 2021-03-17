@@ -4,10 +4,10 @@ font-family: sans-serif;}
 
 body{background-color: #ededed;}
 
-.encabezado{margin-left: 25px; width: 810px;}
+.encabezado{margin-left: 25px; width: 810px; min-width: 250px;}
 
 .in-flex1{margin-left: 25px;margin-top: -5px; display:flex; flex-wrap:wrap;
-          background-color: #320045; width: 800px; padding: 5px;}
+          background-color: #320045; width: 800px; padding: 5px; min-width: 250px;}
 
 
 
