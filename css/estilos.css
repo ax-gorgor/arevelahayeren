@@ -1,0 +1,67 @@
+*{ padding: 0;
+   margin:0;
+font-family: sans-serif;}
+
+body{background-color: #ededed;}
+
+.encabezado{margin-left: 25px; width: 810px;}
+
+.in-flex1{margin-left: 25px;margin-top: -5px; display:flex; flex-wrap:wrap;
+          background-color: #320045; width: 800px; padding: 5px;}
+
+
+
+.clase1 {padding: 5px; margin: 5px;border-radius: 5%; font-size: 18px; font-family: sans-serif; }
+.clase2 {padding: 5px; margin: 5px;border-radius: 5%;font-size: 18px; font-family: sans-serif;}
+.clase3 {padding: 5px; margin: 5px; border-radius: 5%;font-size: 18px; font-family: sans-serif;}
+
+
+
+    .clase1{background:#fff; color: black; width: 100px;  }
+
+    .clase2{background:#fff;  color: black; width: 100px; }
+    
+    .clase3{background:#fff; color: black; width: 100px; }
+
+    .bandera {width: 25px;}
+    
+    /*.margen1{width: 100%; height: 180px; background-color: sandybrown;}*/
+    
+    a:link {text-decoration: none;}
+    a:hover .clase1  {color: rgb(95, 95, 95) ; transition: 0.3s;}
+    a:hover .clase2  {color: rgb(95, 95, 95) ;transition: 0.3s;}
+    a:hover .clase3  {color: rgb(95, 95, 95) ;transition: 0.3s;}
+
+
+
+
+
+.home {display: flex;
+       flex-wrap: wrap;
+
+}
+
+.video1{ width:300px; height:315px; min-width: 250px;}
+
+.alex{display: flex; flex-wrap: wrap;  }
+
+.alex1{padding: 5px; margin-left: 20px;}
+
+
+.in-flex { 
+
+    flex: 1; min-width: 250px;
+}
+
+.in-flex:first-child { 
+
+    flex: 2; padding: 25px;
+    background-color: #fff;
+    margin: 20px; margin-bottom: 0px;
+}
+
+.in-flex div { padding: 25px;
+               background-color: #fff;
+               margin: 20px;
+
+}
